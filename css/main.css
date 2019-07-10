@@ -1,3 +1,7 @@
+*, html, button, input{
+    outline:none;
+}
+
 #logo h2{
     color: #fff;
     font-size: 25px;
