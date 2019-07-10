@@ -69,17 +69,17 @@
     grid-row-gap: 20px;
 }
 .main-products .card-product {
-    border-radius: 10px;
+    border-radius: 6px;
     box-shadow: rgb(228, 228, 228) 5px 5px 15px;
 }
 .main-products .card-product .image {
     background-color: #fff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 .main-products .card-product .image img{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 .main-products .card-product .info{
     padding: 10px;
@@ -102,8 +102,8 @@
 }
 .buttons{
     border: 1px solid rgb(224, 224, 224);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 .buttons .add-cart button{
     width: 100%;
@@ -111,8 +111,8 @@
     outline: none;
     border:none;
     padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
     color: rgb(8, 185, 97);
     font-weight: 600;
     font-size: 15px;
@@ -139,8 +139,8 @@
     justify-items: center;
     align-items: center;
     background-color: #fff;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
     padding: 10px;
     display: none;
 }
