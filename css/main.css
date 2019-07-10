@@ -129,6 +129,7 @@
 }
 .buttons .add-cart button:focus{
     outline: 0;
+    border: none;
 }
 .quantity-buttons{
     width: 100%;
@@ -238,5 +239,13 @@
     }
     .quantity-buttons h4{
         font-size: 16px;
+    }
+    .buttons .add-cart button:active{
+        outline: none;
+        border: none;
+    }
+    .buttons .add-cart button:focus{
+        outline: 0;
+        border: none;
     }
 }
