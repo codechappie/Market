@@ -105,7 +105,7 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.buttons .add-cart button{
+.buttons .add-cart a{
     width: 100%;
     background-color: #fff;
     outline: none;
