@@ -133,8 +133,7 @@
     0 1px 10px 0 rgba(0, 0, 0, 0.12);
   background-color: #2a9015;
 }
-.buttons .add-cart button:active,
-.buttons .add-cart button:{
+.buttons .add-cart button:active{
     outline: none;
     border: none;
     box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
