@@ -1,4 +1,4 @@
-*:active, html, button, input{
+*, html, button, input{
     outline:none;
 }
 
@@ -124,9 +124,11 @@
     transition: all 600ms ease;
 }
 .buttons .add-cart button:active{
-    background-color: #fff;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    outline: none;
+    border: none;
+}
+.buttons .add-cart button:focus{
+    outline: 0;
 }
 .quantity-buttons{
     width: 100%;
