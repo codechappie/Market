@@ -118,14 +118,8 @@
     font-size: 15px;
     cursor: pointer;
 }
-.buttons .add-cart{
-    outline: none;
-    border: none;
-}
 .buttons .add-cart button:hover, 
-.buttons .add-cart button:focus,
-.buttons .add-cart:focus,
-.buttons .add-cart:hover{
+.buttons .add-cart button:focus{
     background-color: rgb(17, 184, 120);
     color: #fff;
     transition: all 600ms ease;
