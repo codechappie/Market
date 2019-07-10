@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Google fonts-->
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel="stylesheet" href="css/main.css">
+	<title>Codechappie</title>
+</head>
+
+<body class="foo">
+	<header>
+		<div id="logo">
+			<h2>Market</h2>
+		</div>
+		<div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
+		<div id="cd-cart-trigger"><a class="cd-img-replace" href="#0">Cart</a></div>
+	</header>
+
+	<nav id="main-nav">
+		<ul>
+			<li><a href="#0">Home</a></li>
+			<li><a class="current" href="#0">Products</a></li>
+			<li><a href="#0">Gallery</a></li>
+		</ul>
+	</nav>
+
+	<div id="cd-cart">
+		<h2>Carro</h2>
+		<ul class="cd-cart-items">
+			<li>
+				<span class="cd-qty">2x</span> Product Name
+				<div class="cd-price">S/. 1.20</div>
+				<a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+			</li>
+		</ul> <!-- cd-cart-items -->
+
+		<div class="cd-cart-total">
+			<p>Total <span>$2.40</span></p>
+		</div> <!-- cd-cart-total -->
+
+		<a href="#0" class="checkout-btn">Checkout</a>
+
+		<p class="cd-go-to-cart"><a href="#0">Go to cart page</a></p>
+	</div> <!-- cd-cart -->
+
+	<main class="principal">
+		<div class="principal-container">
+		<div class="main-searcher">
+			<div class="form-group">
+				<input type="search" name="" id="" placeholder="What are you searching?">
+			</div>
+			<div class="form-group-select">
+				<select>
+					<option value="0">Order for</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+			<div class="form-group-select">
+				<select class="combo">
+					<option value="0">Category</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+		</div>
+		</div>
+		
+		<div class="main-products">
+			<div class="card-product">
+				<div class="image">
+					<img src="img/thumb.jpg" alt="">
+				</div>
+				<div class="info">
+					<h2>S/. 1.20</h2>
+					<h3>Title Product</h3>
+					<p>Some description</p>
+				</div>
+				<div class="buttons">
+					<div class="add-cart">
+						<button>Add to cart</button>
+					</div>
+					<div class="quantity-buttons">
+						<div class="decrase">
+							<button>-</button>
+						</div>
+						<div class="quantity-info">
+							<h4>4</h4>
+						</div>
+						<div class="btn-increase">
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-product">
+				<div class="image">
+					<img src="img/thumb.jpg" alt="">
+				</div>
+				<div class="info">
+					<h2>S/. 1.20</h2>
+					<h3>Title Product</h3>
+					<p>Some description</p>
+				</div>
+				<div class="buttons">
+					<div class="add-cart">
+						<button>Add to cart</button>
+					</div>
+					<div class="quantity-buttons">
+						<div class="decrase">
+							<button>-</button>
+						</div>
+						<div class="quantity-info">
+							<h4>1</h4>
+						</div>
+						<div class="btn-increase">
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-product">
+				<div class="image">
+					<img src="img/thumb.jpg" alt="">
+				</div>
+				<div class="info">
+					<h2>S/. 1.20</h2>
+					<h3>Title Product</h3>
+					<p>Some description</p>
+				</div>
+				<div class="buttons">
+					<div class="add-cart">
+						<button>Add to cart</button>
+					</div>
+					<div class="quantity-buttons">
+						<div class="decrase">
+							<button>-</button>
+						</div>
+						<div class="quantity-info">
+							<h4>1</h4>
+						</div>
+						<div class="btn-increase">
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-product">
+				<div class="image">
+					<img src="img/thumb.jpg" alt="">
+				</div>
+				<div class="info">
+					<h2>S/. 1.20</h2>
+					<h3>Title Product</h3>
+					<p>Some description</p>
+				</div>
+				<div class="buttons">
+					<div class="add-cart">
+						<button>Add to cart</button>
+					</div>
+					<div class="quantity-buttons">
+						<div class="decrase">
+							<button>-</button>
+						</div>
+						<div class="quantity-info">
+							<h4>1</h4>
+						</div>
+						<div class="btn-increase">
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-product">
+				<div class="image">
+					<img src="img/thumb.jpg" alt="">
+				</div>
+				<div class="info">
+					<h2>S/. 1.20</h2>
+					<h3>Title Product</h3>
+					<p>Some description</p>
+				</div>
+				<div class="buttons">
+					<div class="add-cart">
+						<button>Add to cart</button>
+					</div>
+					<div class="quantity-buttons">
+						<div class="decrase">
+							<button>-</button>
+						</div>
+						<div class="quantity-info">
+							<h4>1</h4>
+						</div>
+						<div class="btn-increase">
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-product">
+				<div class="image">
+					<img src="img/thumb.jpg" alt="">
+				</div>
+				<div class="info">
+					<h2>S/. 1.20</h2>
+					<h3>Title Product</h3>
+					<p>Some description</p>
+				</div>
+				<div class="buttons">
+					<div class="add-cart">
+						<button>Add to cart</button>
+					</div>
+					<div class="quantity-buttons">
+						<div class="decrase">
+							<button>-</button>
+						</div>
+						<div class="quantity-info">
+							<h4>1</h4>
+						</div>
+						<div class="btn-increase">
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<div id="cd-shadow-layer">
+	</div>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/main.js"></script> <!-- Gem jQuery -->
+
+</body>
+
+</html>

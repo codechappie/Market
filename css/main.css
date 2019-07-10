@@ -1,0 +1,154 @@
+#logo h2{
+    color: #fff;
+    font-size: 25px;
+}
+#logo{
+    margin: 10px 0px;
+}
+/*-----MAIN SEARCHER-----*/
+.principal-container{
+    width: 98%;
+    background-color: rgb(152, 36, 156);
+    margin: auto;
+}
+.main-searcher{
+    background-color: rgb(231, 203, 231);
+    width: 98%;
+    height: 40px;
+    margin-top: 10px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.form-group{
+    width: 100%;
+}
+.form-group input{
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(224, 224, 224);
+    text-align: center;
+    font-size: 15px;
+}
+.form-group-select{
+    width: 100%;
+    background-color: turquoise;
+}
+.form-group-select select{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    color: rgb(136, 136, 136);
+    outline: none;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.form-group-select option{
+    font-size: 15px;
+    padding: 20px;
+    outline: none;
+    color: rgb(136, 136, 136);
+    font-weight: 300;
+}
+
+/*---MAIN PRODUCT PART---*/
+.main-products{
+    display: grid;
+    width: 95%;
+    margin: 70px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+.main-products .card-product {
+    border-radius: 10px;
+    box-shadow: rgb(228, 228, 228) 5px 5px 15px;
+}
+.main-products .card-product .image {
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main-products .card-product .image img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main-products .card-product .info{
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.main-products .card-product .info h2{
+    color: rgb(13, 202, 108);
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 4px; 
+}
+.main-products .card-product .info h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+.main-products .card-product .info p{
+    color: rgb(145, 145, 145);
+    padding-bottom: 4px; 
+}
+.buttons{
+    border: 1px solid rgb(224, 224, 224);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.buttons .add-cart button{
+    width: 100%;
+    background-color: #fff;
+    outline: none;
+    border:none;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(8, 185, 97);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+.buttons .add-cart button:hover{
+    background-color: rgb(17, 184, 120);
+    color: #fff;
+    transition: all 600ms ease;
+}
+.quantity-buttons{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    display: none;
+}
+.quantity-buttons button{
+    outline: none;
+    border: 2px solid rgb(8, 185, 97);
+    color: rgb(8, 185, 97);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 24px;
+}
+.quantity-buttons button:hover{
+    background-color: rgb(17, 184, 120);
+    color: #fff;
+    transition: all 600ms ease;
+}
+.quantity-buttons h4{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
