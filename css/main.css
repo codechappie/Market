@@ -122,6 +122,8 @@
     background-color: rgb(17, 184, 120);
     color: #fff;
     transition: all 600ms ease;
+    outline: none;
+    border: none;
 }
 .buttons .add-cart button:active{
     outline: none;
