@@ -1,4 +1,4 @@
-*, html, button, input{
+*:active, html, button, input{
     outline:none;
 }
 
@@ -117,12 +117,16 @@
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
-    
 }
 .buttons .add-cart button:hover{
     background-color: rgb(17, 184, 120);
     color: #fff;
     transition: all 600ms ease;
+}
+.buttons .add-cart button:active{
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .quantity-buttons{
     width: 100%;
